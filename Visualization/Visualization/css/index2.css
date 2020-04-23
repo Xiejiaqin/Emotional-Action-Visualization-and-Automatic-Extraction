@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: url(../images/true.png) no-repeat top center fixed;
+  line-height: 1.15;
+}
+header {
+  height: 1.25rem;
+  background: url(../images/head_bg.png) no-repeat;
+  background-size: 100% 100%;
+}
+header h1 {
+  font-size: 0.475rem;
+  color: #fff;
+  text-align: center;
+  line-height: 1rem;
+}
+header .bu1 {
+  position: absolute;
+  border: 2px solid rgba(169, 189, 255, 0.4);
+  left: 1rem;
+  top: 0.175rem;
+  height: 0.5rem;
+  width: 1.5rem;
+  font-size: 0.2rem;
+  color: #fff;
+  text-align: center;
+  line-height: 0.4rem;
+}
+header .bu2 {
+  position: absolute;
+  border: 2px solid rgba(169, 189, 255, 0.4);
+  left: 2.75rem;
+  top: 0.175rem;
+  height: 0.5rem;
+  width: 1.5rem;
+  font-size: 0.2rem;
+  color: #fff;
+  text-align: center;
+  line-height: 0.4rem;
+}
+header .bu3 {
+  position: absolute;
+  border: 2px solid rgba(169, 189, 255, 0.4);
+  left: 4.5rem;
+  top: 0.175rem;
+  height: 0.5rem;
+  width: 1.5rem;
+  font-size: 0.2rem;
+  color: #fff;
+  text-align: center;
+  line-height: 0.4rem;
+}

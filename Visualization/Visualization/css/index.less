@@ -1,0 +1,102 @@
+//css 初始化
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:url(../images/true.png)no-repeat top center fixed;
+    line-height: 1.15;
+}
+header{
+    height:1.25rem;
+    background: url(../images/head_bg.png)no-repeat;
+    background-size: 100% 100%;
+    h1{
+        font-size: .475rem;
+        color: #fff;
+        text-align: center;
+        line-height: 1rem;
+    };
+    .bu1{
+        position:absolute;
+        border: 2px solid rgba(169, 189, 255, 0.4);
+        left:1rem;
+        top:0.175rem;
+        height: 0.5rem;
+        width: 1.5rem;
+        font-size: .2rem;
+        color: #fff;
+        text-align: center;
+        line-height: 0.4rem;
+    }
+    .bu2{
+        position:absolute;
+        border: 2px solid rgba(169, 189, 255, 0.4);
+        left:2.75rem;
+        top:0.175rem;
+        height: 0.5rem;
+        width: 1.5rem;
+        font-size: .2rem;
+        color: #fff;
+        text-align: center;
+        line-height: 0.4rem;
+    }
+    .bu3{
+        position:absolute;
+        border: 2px solid rgba(169, 189, 255, 0.4);
+        left:4.5rem;
+        top:0.175rem;
+        height: 0.5rem;
+        width: 1.5rem;
+        font-size: .2rem;
+        color: #fff;
+        text-align: center;
+        line-height: 0.4rem;
+    }
+}
+.mainbox{
+    display: flex;
+    // min-width: 1024px;
+    // max-width: 1920px;
+    margin: 0;
+    height: 3.875rem;
+    padding: .125rem .125rem 0;
+    .column{
+        flex: 3;
+        margin: 0 .1rem 0 .1rem;
+    }
+    .column:nth-child(3){
+        flex:6;
+    }
+    .panel{
+        padding: .125rem .125rem 0;
+        margin: 0 0 .125rem 0;
+        height: 3.875rem;
+        background: url(../images/line1.png)  center no-repeat;
+        background-size: 97% 95%;
+        border: 2px solid rgba(169, 189, 255, 0.288);
+        // h2{
+        //     height: .5rem;
+        //     color:#fff;
+        //     line-height: .5rem;
+        //     text-align: center;
+        //     font-size: .25rem;
+        //     font-weight: 400;
+        // }
+        .chart{
+            height: 3.5rem;
+        }
+    }
+    .panel2{
+        padding: .125rem .125rem 0;
+        margin: .05rem 0 .25rem 0;
+        height: 7.75rem;
+        background: url(../images/line1.png)  center no-repeat;
+        background-size: 98% 98%;
+        border: 2px solid rgba(169, 189, 255, 0.288);
+        .chart{
+            height: 7.5rem;
+        }
+    }
+}
